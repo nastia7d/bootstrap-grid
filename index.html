@@ -1,222 +1,193 @@
 
+
 <!DOCTYPE html>
 <html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Space</title>
 
-    <title>Bootstrap Grid Opdracht</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <header class="site-header">
+        <div class="container">
+            <h1>Creative Space <span></span></h1>
+            <p>A little collection of ideas and inspiration</p>
+        </div>
+    </header>
+
     <main>
-        <section class="section-light">
 
+        <section class="table-section">
             <div class="container">
+                <h2>01. Team overview</h2>
+                <p class="intro">Meet the people behind the projects.</p>
 
-                <h2>Tabel overzicht</h2>
-
-                <div class="table-card">
-
-                    <table class="table table-bordered mb-0">
-
+                <div class="table-wrapper">
+                    <table class="table table-hover mb-0">
                         <thead>
                             <tr>
-                                <th>Nummer</th>
-                                <th>Naam</th>
-                                <th>Functie</th>
-                                <th>Link</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Website</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>John</td>
-                                <td>CEO</td>
-                                <td><a href="#">Link</a></td>
+                                <td>01</td>
+                                <td>Anastasia</td>
+                                <td>development</td>
+                                <td><a href="#">Visit</a></td>
                             </tr>
-
                             <tr>
-                                <td>2</td>
-                                <td>Peter</td>
-                                <td>CFO</td>
-                                <td><a href="#">Link</a></td>
+                                <td>02</td>
+                                <td>Anastasia</td>
+                                <td>development</td>
+                                <td><a href="#">Visit</a></td>
                             </tr>
-
                             <tr>
-                                <td>3</td>
-                                <td>Mark</td>
-                                <td>CTO</td>
-                                <td><a href="#">Link</a></td>
+                                <td>03</td>
+                                <td>Anastasia</td>
+                                <td>development</td>
+                                <td><a href="#">Visit</a></td>
                             </tr>
-
                             <tr>
-                                <td>4</td>
-                                <td>Hank</td>
-                                <td>CDO</td>
-                                <td><a href="#">Link</a></td>
+                                <td>04</td>
+                                <td>Anastasia</td>
+                                <td>development</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            
                             </tr>
                         </tbody>
-
                     </table>
-
                 </div>
-
             </div>
-
         </section>
 
-        <section class="section-dark">
-
+        <section class="article-section">
             <div class="container">
+                <h2>02. A bit of inspiration</h2>
 
-                <h2>Artikel indeling</h2>
-
-                <div class="row g-3">
+                <div class="row g-4">
                     <div class="col-md-4">
-
-                        <div class="content-card">
-
+                        <div class="info-card list-card">
+                            <span class="small-title">ON THE LIST</span>
+                            <h3>Things i love</h3>
                             <ul>
-                                <li>Lorem</li>
-                                <li>Ipsum</li>
-                                <li>Dolor</li>
+                                <li>Creative ideas</li>
+                                <li>Good music</li>
+                                <li>Photography</li>
+                                <li>Art and design</li>
+                                <li>New experiences</li>
                             </ul>
-
                         </div>
-
                     </div>
+
                     <div class="col-md-8">
-
-                        <div class="content-card">
-
+                        <div class="info-card">
+                            <span class="small-title">JOURNAL</span>
+                            <h3></h3>
                             <p>
                                
                             </p>
-
                             <p>
-                                
+                               
                             </p>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-        
-        <section class="section-light">
-
+        <section class="product-section">
             <div class="container">
+                <h2>03. Little things</h2>
 
-                <h2>Product pagina indeling</h2>
-
-                <div class="row g-3">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-md-6">
+                        <div class="photo-card">
+                            <img src="https://placecats.com/600/450" alt="A cute cat">
+                            <p class="photo-caption">
+                                A little moment of happiness 
+                            </p>
+                        </div>
+                    </div>
 
                     <div class="col-md-6">
-
-                        <div class="image-card">
-
-                            <img
-                                src="https://placecats.com/600/500"
-                                alt="Cute kitten"
-                                class="img-fluid">
-
-                        </div>
-
-                    </div>
-
-                
-                    <div class="col-md-6">
-
-                        <div class="content-card">
-
-                            <h3>Product</h3>
-
+                        <div class="info-card product-info">
+                            <span class="small-title">OUR FAVORITE</span>
+                            <h3>The perfect companion</h3>
+                            <p>
+                              
+                            </p>
                             <p>
                                 
                             </p>
-
+                            <a href="#" class="read-more">Read more →</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-      
-        <section class="section-dark">
-
+        <section class="services-section">
             <div class="container">
+                <h2>04. Explore more</h2>
+                <p class="intro">Three things worth discovering.</p>
 
-                <h2>Service blocks</h2>
-
-                <div class="row g-3">
-
-                   
+                <div class="row g-4">
                     <div class="col-md-4">
-
-                        <div class="content-card">
-
-                            <h3>Service</h3>
-
+                        <div class="service-card">
+                            <div class="card-icon"></div>
+                            <h3>Design</h3>
                             <p>
-
+                                Exploring colors, shapes and ideas
+                                to create something unique.
                             </p>
-
                         </div>
-
                     </div>
 
-                    <!-- Service 2 -->
                     <div class="col-md-4">
-
-                        <div class="content-card">
-
-                            <h3>Service</h3>
-
+                        <div class="service-card">
+                            <div class="card-icon"></div>
+                            <h3>Music</h3>
                             <p>
-                                
+                                Discovering new sounds, artists
+                                and different kinds of music.
                             </p>
-
                         </div>
-
                     </div>
 
-                  
                     <div class="col-md-4">
-
-                        <div class="content-card">
-
-                            <h3>Service</h3>
-
+                        <div class="service-card">
+                            <div class="card-icon"></div>
+                            <h3>Photography</h3>
                             <p>
-                                
+                                Capturing small moments and
+                                beautiful details around us.
                             </p>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
+
+    </main>
+
+    <footer>
+        <p>by Anastasia</p>
+    </footer>
+
+</body>
+</html>
 
     </main>
 
